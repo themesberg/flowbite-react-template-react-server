@@ -1,0 +1,46 @@
+{
+  "name": "react-server-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "react-server ./src/App.tsx",
+    "build": "react-server build ./src/App.tsx",
+    "start": "react-server start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "postinstall": "flowbite-react patch"
+  },
+  "dependencies": {
+    "@lazarv/react-server": "0.0.0-experimental-be787f2-20250217-12688b9b",
+    "flowbite-react": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.9",
+    "@babel/plugin-syntax-import-assertions": "^7.25.9",
+    "@babel/preset-react": "^7.25.9",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
+    "@lazarv/react-server-adapter-vercel": "^0.0.0-experimental-138ef89-20241217-08cf78b6",
+    "@tailwindcss/vite": "^4.0.15",
+    "@types/node": "^20.12.12",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.11.0",
+    "@typescript-eslint/parser": "^8.11.0",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-jsx-a11y": "^6.10.1",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^4.0.15",
+    "typescript": "^5.6.2",
+    "vite": "^6.1.0"
+  }
+}
