@@ -1,5 +1,5 @@
 {
-  "name": "react-server-app",
+  "name": "flowbite-react-template-react-server",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,7 +13,7 @@
     "postinstall": "flowbite-react patch"
   },
   "dependencies": {
-    "@lazarv/react-server": "0.0.0-experimental-be787f2-20250217-12688b9b",
+    "@lazarv/react-server": "^0.0.0-experimental-b8817cb-20250321-be0755c5",
     "flowbite-react": "^0.11.0"
   },
   "devDependencies": {

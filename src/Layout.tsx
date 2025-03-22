@@ -6,7 +6,7 @@ export default function Layout({ children }: React.PropsWithChildren) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>FLowbite React Template React-Server</title>
+        <title>Flowbite React Template React-Server</title>
         <ThemeModeScript />
       </head>
       <body className="antialiased">{children}</body>
