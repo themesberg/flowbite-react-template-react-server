@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@lazarv/react-server": "^0.0.0-experimental-77fcecd-20250629-70347fa9",
-    "flowbite-react": "^0.12.1"
+    "flowbite-react": "^0.12.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.28.0",
