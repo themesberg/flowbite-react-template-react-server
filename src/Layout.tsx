@@ -1,5 +1,7 @@
 import { ThemeModeScript } from "flowbite-react";
 
+import { ThemeInit } from "../.flowbite-react/init";
+
 export default function Layout({ children }: React.PropsWithChildren) {
   return (
     <html lang="en" suppressHydrationWarning>
@@ -9,7 +11,10 @@ export default function Layout({ children }: React.PropsWithChildren) {
         <title>Flowbite React Template React-Server</title>
         <ThemeModeScript />
       </head>
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        <ThemeInit />
+        {children}
+      </body>
     </html>
   );
 }
